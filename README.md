@@ -14,10 +14,11 @@ Examples:
 Copy over to the topstack with button. This will sequentially name all popovers on the visible card of the topstack, but rename the group as needed.
 
 Hint: usually clicking on the background dismisses popovers, so consider leaving 'popover' or some other unique identifer in the group name, so when clicking on the card/outside the control, you can add mouseDown handler to dismiss all popovers:
+    
     on mouseDown
-       repeat with x = 1 to the number of groups of this card
-          if "popover" is in the name of group x then hide group x
-       end repeat
+        repeat with x = 1 to the number of groups of this card
+            if "popover" is in the name of group x then hide group x
+        end repeat
     end mouseDown
 
 #### Resizing: 
