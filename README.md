@@ -8,7 +8,7 @@ Putting a Popover on your card:
 You can copy a prototype Popover simulation to the topstack to edit as needed by clicking the ***Copy to topstack button***. You may edit the prototype before copying across, or edit the popover after copying, by hovering over the corresponding Edit Settings icon (see *The Edit Settings Icon*).
 
 Examples:
-![skPopover examples](https://user-images.githubusercontent.com/5677273/112755088-16e85e80-8fd7-11eb-98e0-c975c49faf1e.jpg)
+![skPopover Examples](https://user-images.githubusercontent.com/5677273/112755583-27013d80-8fd9-11eb-8917-a53eed0720d1.jpg)
 
 #### How to use:
 Copy over to the topstack with button. This will sequentially name all popovers on the visible card of the topstack, but rename the group as needed.
