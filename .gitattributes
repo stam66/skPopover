@@ -1,6 +1,6 @@
 # Auto detect text files and perform LF normalization
 *.livecodescript linguist-detectable=true
-*.livecode linguist-detectable=false
+*.livecode linguist-detectable=true
 
 # Set default behaviour, in case users don't have core.autocrlf set.
 * text=auto
@@ -8,13 +8,15 @@
 # Explicitly declare text files we want to always be normalized and converted
 # to native line endings on checkout.
 *.livecodescript text
+*.livecdoe text
+*.rev text
 
 # Declare files that will always have LF line endings on checkout.
 *.livecodescript text eol=CRLF
+*.livecode text eol=CRLF
+*.rev text eol=CRLF
 
 # Denote all files that are truly binary and should not be modified.
 *.png binary
 *.jpg binary
 *.jepg binary
-*.rev binary
-*.livecode binary
